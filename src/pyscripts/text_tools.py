@@ -4,6 +4,8 @@
 def count_words(text: str) -> int:
     return len(text.split())
 
+def val() -> str:
+    return "who is the best? The answer is near."
 
 def reverse_text(text: str) -> str:
     return text[::-1]
