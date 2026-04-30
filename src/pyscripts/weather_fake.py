@@ -1,9 +1,10 @@
 """Donnees meteo fictives pour les exercices."""
 
 FAKE_WEATHER = {
-    "toulouse": "soleil",
-    "montpellier": "vent",
-    "paris": "nuages",
+    "pezilla": "soleil",
+    "pezilla": "vent",
+    "pezilla": "nuages",
+    "pezilla": "tramontane",
 }
 
 
