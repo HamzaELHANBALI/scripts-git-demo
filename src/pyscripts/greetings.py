@@ -2,16 +2,10 @@
 
 
 def welcome_message(name: str) -> str:
-    """
-    Retourne un message de bienvenue personnalisé pour l'étudiant.
-    """
-    clean_name = name.strip() or "etudiant"
+    clean_name = name.strip() or "Stranger"
     return f"Bonjour {clean_name}, bienvenue dans le TP Git du CNAM !"
 
 
 def goodbye_message(name: str) -> str:
-    """
-    Retourne un message d'adieu personnalisé pour l'étudiant.
-    """
-    clean_name = name.strip() or "etudiant"
+    clean_name = name.strip() or "Stranger"
     return f"A bientot {clean_name}, pense a pousser ta branche."

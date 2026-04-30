@@ -4,6 +4,7 @@ FAKE_WEATHER = {
     "toulouse": "soleil",
     "montpellier": "vent",
     "paris": "nuages",
+    "perpignan": "grand soleil",
 }
 
 
