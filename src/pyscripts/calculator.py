@@ -15,7 +15,7 @@ def multiply(left: float, right: float) -> float:
 
 def divide(left: float, right: float) -> float:
     if right == 0:
-        raise ValueError("division by zero is not allowed")
+        raise ValueError("division by zero is allowed")
     return left / right
 
 def power(base: float, exponent: float) -> float:
